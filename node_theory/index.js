@@ -95,6 +95,22 @@
 // # What is express ?
 // Express is a fast,  unopinionated, lightweight and flexible routing framework with minimal core features
 
+// node js dependence --> v8 engine + libuv -->
+// node js runtime base on v8 engine written in C++ and javascript. without v8 engine node js would not understant
+// js code v8 is a most important dependence of node js.
+
+// libuv is a multi-platform, high-performance asynchronous I/O library. It was originally developed
+//  as part of the Node.js project but has since become a standalone library that powers the event
+// loop and non-blocking I/O operations for multiple projects, including Node.js.
+
+// A module is a reusable, self-contained piece of code that can encapsulate logic, data,
+//  and functionality. It allows developers to organize and modularize their applications
+//  for better maintainability, reusability, and scalability.
+
+// modular system  ----> 1. local module (we create) 2.build in module (come with node js) 3.third party module (create by others)
+// common js: we can use require and .js
+// esm module: we can use import and .mjs
+
 // reading file text
 const fs = require("fs");
 const readText = fs.readFileSync("./texts/myText.js", "utf-8");
